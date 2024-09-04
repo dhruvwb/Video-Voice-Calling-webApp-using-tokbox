@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.OTPublisherContainer,
+.OTSubscriberContainer {
+  @apply w-full !important;
+  @apply h-full !important;
+}
